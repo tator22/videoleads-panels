@@ -1,0 +1,9 @@
+:root {
+  --side-bar-expanded-width: 27rem;
+  --side-bar-collapsed-width: 8.5rem;
+  --border-width: 0.1rem;
+  --top-bar-height: 7rem;
+  --data-table-cell-font-size: 1.5rem;
+  --data-table-cell-padding-row: 2.4rem 3rem;
+  --data-table-cell-padding-head: 1.2rem 3rem;
+}

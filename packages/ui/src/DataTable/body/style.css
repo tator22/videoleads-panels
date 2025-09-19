@@ -1,0 +1,23 @@
+.body {
+  width: 100%;
+}
+
+tr {
+  background-color: rgba(var(--white));
+}
+
+td,
+td > a {
+  font-size: var(--data-table-cell-font-size);
+  color: rgba(var(--black), 0.75);
+  vertical-align: center;
+}
+
+td > a {
+  text-decoration: underline;
+  color: rgba(var(--white));
+}
+
+/* tr:hover {
+  background-color: rgba(var(--error));
+} */

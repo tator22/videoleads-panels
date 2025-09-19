@@ -1,0 +1,22 @@
+.layoutSubMainContainer {
+  margin-left: auto;
+  border: none;
+}
+
+/* 
+@media screen and (max-width: 900px) {
+  .layoutSubMainContainer {
+    margin-left: auto;
+    padding: 3.5rem;
+    margin-top: 0rem;
+  }
+
+  .layoutSubContainer {
+    width: 100% !important;
+    margin-left: auto;
+  }
+}
+
+.sideBarAndOutlet {
+  border: 2px solid green;
+} */

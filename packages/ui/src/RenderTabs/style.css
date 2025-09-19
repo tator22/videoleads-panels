@@ -1,0 +1,39 @@
+.renderTabContainer {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  overflow-y: auto;
+  border-bottom: var(--border-width) solid rgba(var(--black), 0.1);
+  padding: 0rem 3rem;
+  margin-bottom: 2rem;
+}
+
+.renderTabContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.renderTabButton {
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  line-height: 125%;
+  font-weight: 500;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 1rem 0.3rem;
+  color: rgba(var(--black), 0.5);
+  background-color: rgba(var(--white));
+  white-space: nowrap;
+
+  /* &:disabled {
+    background-color: rgb(var(--white), 0.1);
+    border: 0.25rem solid rgba(var(--primary), 0.05);
+    } */
+}
+
+.tabActive {
+  color: rgba(var(--black));
+  font-weight: 600;
+  border-bottom: 0.2rem solid rgba(var(--primary));
+  position: relative;
+}

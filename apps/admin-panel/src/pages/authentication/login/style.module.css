@@ -1,0 +1,18 @@
+.LogIn {
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .forgotPassword {
+    text-align: end;
+
+    .forgotPasswordLink {
+      font-size: 1.3rem;
+      line-height: 125%;
+      font-weight: 400;
+      color: rgb(var(--black), 0.5);
+    }
+  }
+}

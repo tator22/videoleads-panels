@@ -1,0 +1,32 @@
+.Radio {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+.Radio[aria-disabled="true"] {
+  cursor: not-allowed;
+}
+
+.Radio > .input {
+  display: none;
+}
+
+.Radio > .icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  min-width: 2.4rem;
+  min-height: 2.4rem;
+  max-width: 2.4rem;
+  max-height: 2.4rem;
+}
+
+.Radio[aria-disabled="true"] > .icon {
+  opacity: 0.35;
+  filter: grayscale(100%);
+  pointer-events: none;
+}

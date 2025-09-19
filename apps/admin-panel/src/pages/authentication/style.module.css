@@ -1,0 +1,104 @@
+.Authentication {
+  display: flex;
+  flex-direction: column;
+  gap: 17.5rem;
+
+  .topBar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1rem;
+
+    .label {
+      font-size: 1.5rem;
+      line-height: 125%;
+      color: rgb(var(--black));
+      font-weight: 400;
+    }
+
+    .cta {
+      border: 0.25rem solid rgb(var(--black));
+      border-radius: 0.5rem !important;
+      padding: 0.7rem 2.6rem !important;
+      font-size: 1.3rem;
+      font-weight: 700;
+      line-height: 125%;
+    }
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    gap: 5rem;
+    width: 100%;
+
+    @media (min-width: 768px) {
+      max-width: 30%;
+    }
+
+    .logoContainer {
+      display: flex;
+      align-items: center;
+      gap: 0.875rem;
+
+      .logo {
+        min-height: 3.5rem;
+        height: 3.5rem;
+        max-height: 3.5rem;
+        min-width: 3.5rem;
+        width: 3.5rem;
+        max-width: 3.5rem;
+      }
+      .appName {
+        font-size: 2.4rem;
+        font-weight: 700;
+      }
+    }
+
+    .headingAndSubHeadingContainer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1.25rem;
+
+      .heading {
+        text-align: center;
+      }
+
+      .subHeading {
+        text-align: center;
+      }
+    }
+
+    .childrenAndCtasContainer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 3rem;
+      width: 100%;
+
+      .childrenContainer {
+        width: 100%;
+      }
+
+      .primaryCta,
+      .secondaryCta {
+        width: 100%;
+        border-radius: 1rem;
+      }
+
+      .secondaryCta {
+        padding: 0 !important;
+        color: rgb(var(--black), 0.5) !important;
+        text-decoration: underline;
+
+        &:hover {
+          color: rgb(var(--black)) !important;
+          background-color: transparent !important;
+        }
+      }
+    }
+  }
+}

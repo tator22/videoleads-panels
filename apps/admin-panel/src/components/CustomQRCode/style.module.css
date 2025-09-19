@@ -1,0 +1,18 @@
+.renderQrCodeBody {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .qrCodeContainer {
+    padding: 5%;
+    border-radius: 5%;
+  }
+
+  .qrContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+  }
+}

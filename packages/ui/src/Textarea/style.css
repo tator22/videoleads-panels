@@ -1,0 +1,35 @@
+.commonTextarea {
+  display: flex;
+  flex-direction: column;
+}
+
+.commonTextarea > .labelContainer {
+  margin-bottom: 0.8rem;
+}
+
+.Textarea {
+  width: 100%;
+  outline: none;
+  background-color: rgba(var(--primary), 0.01);
+  border-width: 0.01rem;
+  border-style: solid;
+  border-color: rgba(var(--primary), 0.1);
+  resize: none;
+  border-radius: 1rem;
+  font-size: 1.3rem;
+  line-height: 100%;
+  padding: 1.2rem 1.4rem;
+  color: rgb(var(--black));
+}
+
+.Textarea::placeholder {
+  color: rgba(var(--primary), 0.3);
+}
+
+.Textarea:hover {
+  border-color: rgba(var(--primary), 0.35);
+}
+
+.Textarea:focus {
+  border-color: rgba(var(--primary));
+}

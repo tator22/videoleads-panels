@@ -1,0 +1,39 @@
+.ImageWrapper {
+  position: relative;
+  width: max-content;
+  height: max-content;
+  overflow: hidden;
+}
+
+.Image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.DefaultImage {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  opacity: 0.25;
+  background-color: rgb(var(--off-white));
+}
+
+.Hidden {
+  display: none;
+}
+
+.skeletonLoader {
+  position: absolute;
+  inset: 0;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+
+  100% {
+    background-position: 200% 0;
+  }
+}

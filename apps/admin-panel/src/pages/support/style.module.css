@@ -1,0 +1,155 @@
+.support {
+  height: calc(100dvh - var(--top-bar-height));
+
+  .chatSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-block: 3rem;
+    height: calc(100% - var(--top-bar-height) - 7rem);
+
+    .chatBox {
+      width: 50rem;
+      border: 0.15rem solid rgb(var(--black), 0.08);
+      border-radius: 2rem;
+      height: 100%;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      @media (max-width: 650px) {
+        width: 100%;
+      }
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
+
+      .renderChats {
+        padding: 3rem 2rem;
+        padding-bottom: 0rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+      }
+
+      .chatFooter {
+        padding-inline: 2rem;
+        padding-bottom: 3rem;
+        padding-top: 1rem;
+        position: sticky;
+        bottom: 0;
+        background-color: rgb(var(--white));
+      }
+    }
+  }
+}
+
+.inputAndIcon {
+  border-radius: 100rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  gap: 1rem;
+  border: 0.15rem solid rgb(var(--black), 0.2);
+  background-color: rgb(var(--white));
+
+  .messageInput {
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    line-height: 125%;
+    color: rgb(var(--black));
+    width: 100%;
+
+    &::placeholder {
+      color: rgb(var(--black), 0.3);
+    }
+  }
+
+  .messageSendIconContainer {
+    width: 2.4rem;
+    height: 2.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    .messageSendIcon {
+      width: 75%;
+      height: 75%;
+    }
+  }
+}
+
+.messageBox {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.7rem;
+
+  .profilePhoto {
+    width: 3.5rem;
+    max-width: 3.5rem;
+    min-width: 3.5rem;
+    height: 3.5rem;
+    max-height: 3.5rem;
+    min-height: 3.5rem;
+    border-radius: 100rem;
+    object-fit: cover;
+  }
+
+  .nameAndMessage {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+
+    .nameAndTime {
+      display: flex;
+      align-items: center;
+      gap: 0.7rem;
+
+      .name {
+        font-size: 1.2rem;
+        line-height: 125%;
+        color: rgb(var(--black), 0.7);
+        font-weight: 500;
+      }
+
+      .time {
+        font-size: 1rem;
+        line-height: 125%;
+        color: rgb(var(--black), 0.4);
+        font-weight: 400;
+      }
+    }
+
+    .message {
+      font-size: 1.5rem;
+      line-height: 125%;
+      color: rgb(var(--black));
+      padding: 1rem 1.3rem;
+      border-radius: 0rem 1.5rem 1.5rem 1.5rem;
+      background-color: rgb(var(--black), 0.05);
+    }
+  }
+}
+
+.messageBoxSender {
+  flex-direction: row-reverse;
+
+  .nameAndMessage {
+    align-items: flex-end;
+
+    .nameAndTime {
+      flex-direction: row-reverse;
+    }
+
+    .message {
+      border-radius: 1.5rem 0rem 1.5rem 1.5rem;
+      background-color: #007aff10;
+    }
+  }
+}

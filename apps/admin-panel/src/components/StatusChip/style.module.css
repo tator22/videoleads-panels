@@ -1,0 +1,10 @@
+.statusChip {
+  width: fit-content;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 0.45rem 1.5rem;
+  border-radius: 100rem;
+  text-transform: capitalize;
+  background-color: rgb(var(--white));
+  color: rgb(var(--black));
+}

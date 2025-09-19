@@ -1,0 +1,21 @@
+.HelperText {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.HelperText > .icon {
+  min-height: 1.2rem;
+  height: 1.2rem;
+  max-height: 1.2rem;
+  min-width: 1.2rem;
+  width: 1.2rem;
+  max-width: 1.2rem;
+  margin-top: 0.05rem;
+  opacity: 0.4;
+}
+
+.HelperText > .text {
+  font-size: 1.1rem;
+  line-height: 120%;
+  color: rgba(var(--black), 0.3);
+}

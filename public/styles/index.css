@@ -1,0 +1,9 @@
+@import url("./reset.module.css");
+@import url("./fonts.module.css");
+@import url("./breakpoints.module.css");
+@import url("./global.module.css");
+@import url("./classes.module.css");
+@import url("./colors.module.css");
+@import url("./wrapper.module.css");
+@import url("./variables.module.css");
+@import url("./typography.module.css");

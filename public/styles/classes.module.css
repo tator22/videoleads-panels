@@ -1,0 +1,48 @@
+.smallClickableElement:enabled,
+.mediumClickableElement:enabled,
+.largeClickableElement:enabled {
+  cursor: pointer;
+}
+
+.smallClickableElement:enabled:hover {
+  transform: scale(1.1);
+}
+.mediumClickableElement:enabled:hover {
+  transform: scale(1.05);
+}
+.largeClickableElement:enabled:hover {
+  transform: scale(1.005);
+}
+
+.smallClickableElement:enabled:active {
+  transform: scale(0.95);
+}
+.mediumClickableElement:enabled:active {
+  transform: scale(0.95);
+}
+.largeClickableElement:enabled:active {
+  transform: scale(0.95);
+}
+
+.smallClickableElement:disabled,
+.mediumClickableElement:disabled,
+.largeClickableElement:disabled .smallClickableElement[aria-disabled="true"],
+.mediumClickableElement[aria-disabled="true"],
+.largeClickableElement[aria-disabled="true"] {
+  transform: scale(1);
+  cursor: not-allowed;
+}
+
+.limitTextOverFlowing {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.unselectable {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

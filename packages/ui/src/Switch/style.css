@@ -1,0 +1,29 @@
+.Switch {
+  /* display: inline-flex; */
+  /* align-items: center; */
+  /* justify-content: space-between; */
+  /* gap: 1.5rem; */
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.Switch[aria-disabled="true"] {
+  cursor: not-allowed;
+}
+
+.Switch > .input {
+  display: none;
+}
+
+.Switch > .icon {
+  width: 3rem;
+}
+
+.Switch[aria-disabled="true"] > .icon {
+  opacity: 0.35;
+  filter: grayscale(100%);
+  pointer-events: none;
+}

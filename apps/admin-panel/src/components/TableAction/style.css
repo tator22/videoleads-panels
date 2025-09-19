@@ -1,0 +1,103 @@
+.tableActionMainContainer {
+  .TableAction {
+    position: relative;
+    display: block;
+
+    .tableActionIconMenuIcon {
+      background: none;
+      outline: none;
+      border: none;
+      min-height: 3.6rem;
+      min-width: 3.6rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 0.5rem;
+      cursor: pointer;
+
+      .tableActionMainIcon {
+        width: 1.6rem;
+        height: 1.6rem;
+        filter: var(--primary-color-filter);
+      }
+    }
+  }
+}
+
+.tableActionMenu {
+  background-color: rgb(var(--white));
+  z-index: 99999;
+  min-width: 25.5rem;
+  padding: 1rem;
+  border-radius: 2rem;
+  border: 0.25rem solid rgb(var(--off-white));
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  .tableActionMenuHeading {
+    font-size: 1.5rem;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+
+  .tableActionItem {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1.25rem;
+    border-radius: 1rem;
+    cursor: pointer;
+
+    &:hover {
+      background-color: rgb(var(--primary), 0.05);
+    }
+
+    .tableActionItemIconContainer {
+      background: none;
+      outline: none;
+      border: none;
+      min-height: 2.25rem;
+      min-width: 2.25rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 0.5rem;
+      cursor: pointer;
+
+      .tableActionItemIcon {
+        width: 2rem;
+      }
+    }
+
+    .tableActonItemText {
+      font-size: 2rem;
+      line-height: 2.2rem;
+      font-weight: 400;
+      color: rgb(var(--black));
+      text-transform: capitalize;
+    }
+  }
+
+  .deleteHover {
+    > .tableActonItemText {
+      color: rgba(var(--error));
+    }
+
+    &:hover {
+      background-color: rgba(var(--error));
+
+      > .tableActionItemIconContainer .tableActionItemIcon {
+        filter: brightness(0) saturate(100%) invert(100%) sepia(100%)
+          saturate(2%) hue-rotate(209deg) brightness(111%) contrast(101%);
+      }
+
+      > .tableActonItemText {
+        color: rgba(var(--white));
+      }
+    }
+  }
+}

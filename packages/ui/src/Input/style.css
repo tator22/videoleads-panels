@@ -1,0 +1,48 @@
+.Input {
+  width: 100%;
+}
+
+.Input > .labelContainer {
+  margin-bottom: 0.8rem;
+}
+
+.Input > .input {
+  width: 100%;
+  outline: none;
+  background-color: rgba(var(--primary), 0.01);
+  border-width: 0.01rem;
+  border-style: solid;
+  border-color: rgba(var(--primary), 0.1);
+  border-radius: 1rem;
+  font-size: 1.3rem;
+  line-height: 100%;
+  padding: 1.2rem 1.4rem;
+  color: rgb(var(--black));
+}
+
+.Input > .input::placeholder {
+  color: rgba(var(--primary), 0.3);
+}
+
+.Input > .input:enabled:hover {
+  border-color: rgba(var(--primary), 0.35);
+}
+
+.Input > .input:enabled:focus {
+  border-color: rgb(var(--primary));
+}
+
+.Input > .errorTextAndCounterContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.Input > .errorTextAndCounterContainer > .counterText {
+  text-align: right;
+}
+
+.Input > .helperText {
+  margin-top: 0.8rem;
+}

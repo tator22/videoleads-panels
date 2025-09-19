@@ -1,0 +1,14 @@
+.settings {
+  padding: 2rem 3rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  border-bottom: var(--border-width) solid rgb(var(--black), 0.1);
+
+  .saveButton {
+    display: flex;
+    padding-inline: 5.5rem !important;
+    border-radius: 1rem;
+    align-self: flex-end;
+  }
+}

@@ -1,0 +1,63 @@
+.ChoosePlatformStep {
+  .searchbarContainer {
+    padding: 0rem 3rem;
+    padding-bottom: 1.5rem;
+  }
+}
+
+.SocialLinkRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 1.2rem 3rem;
+
+  .iconAndName {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+    .iconBox {
+      width: 3.5rem;
+      height: 3.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .icon {
+        width: 60%;
+        height: 60%;
+      }
+    }
+
+    .name {
+      font-size: 1.6rem;
+      line-height: 125%;
+      font-weight: 600;
+      color: rgb(var(--black));
+    }
+  }
+
+  .arrowIconBox {
+    width: 2.2rem;
+    height: 2.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .arrowIcon {
+      width: 60%;
+      height: 60%;
+    }
+  }
+}
+
+.AddLinkStep {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0 3rem;
+  padding-bottom: 2rem;
+}

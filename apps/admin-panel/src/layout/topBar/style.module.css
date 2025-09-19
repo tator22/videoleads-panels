@@ -1,0 +1,67 @@
+.topBarContainer {
+  padding: 0rem 3rem;
+  background-color: rgb(var(--white));
+  border-bottom: var(--border-width) solid rgb(var(--black), 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: var(--top-bar-height);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.iconContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.4rem;
+  height: 2.4rem;
+  cursor: pointer;
+}
+
+.menuIcon {
+  width: 75%;
+  height: 75%;
+}
+
+.storageAndOtherIcons {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.storageCount {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.storage {
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.storageSlider {
+  width: 20rem;
+  height: 0.3rem;
+  background-color: rgb(var(--black), 0.08);
+  position: relative;
+  margin-top: 0.5rem;
+  border-radius: 100rem;
+}
+
+.storageSlider::before {
+  content: "";
+  background-color: rgb(var(--black));
+  position: absolute;
+  width: 40%;
+  height: 100%;
+  border-radius: inherit;
+}
+
+.notification {
+  width: 2rem;
+  height: 2rem;
+}

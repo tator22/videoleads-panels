@@ -1,0 +1,126 @@
+.overlay {
+  width: 100vw;
+  height: 100dvh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100000;
+  background-color: rgba(var(--black), 0.3);
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100000;
+  width: 60rem;
+  max-height: 70vh;
+  background-color: rgb(var(--white));
+  border-radius: 2rem;
+  overflow: auto;
+}
+
+.modalHeader {
+  display: flex;
+  align-items: center;
+  padding: 1.5rem 2.5rem;
+  justify-content: space-between;
+}
+
+.modalTitle {
+  font-size: 2rem;
+  line-height: 125%;
+  font-weight: 600;
+}
+
+.modalCloseIconContainer {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 0.2rem;
+}
+
+.modalCloseIconContainer:hover {
+  background-color: rgba(var(--black), 0.05);
+}
+
+.modalCloseIcon {
+  width: 55%;
+  height: 55%;
+}
+
+.content {
+  padding: 1rem 3rem;
+}
+
+.modelFooterContainer {
+  position: sticky;
+  bottom: 0;
+  background-color: rgb(var(--white));
+}
+
+.modalFooter {
+  padding: 1.5rem 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1.5rem;
+}
+
+/* ::-webkit-scrollbar {
+  width: 1rem;
+  height: 100%;
+  border-radius: 1.5rem;
+  background-color: rgba(var(--black), 0.25);
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(var(--black), 0.75);
+  border-radius: 1.5rem;
+}
+::-webkit-scrollbar-track {
+  border-radius: 1.5rem;
+} */
+
+::-webkit-scrollbar {
+  width: 0.75rem;
+  height: 100%;
+  border-radius: 1.5rem;
+  background-color: rgba(var(--black), 0.025);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(var(--black), 0.25);
+  border-radius: 1.5rem;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 1.5rem;
+}
+
+body.hideBackgroundScroll {
+  overflow: hidden;
+}
+
+.hide {
+  opacity: 0;
+  pointer-events: none;
+}
+
+@media (max-width: 768px) {
+  .content {
+    width: 100%;
+    padding: 1rem 2.5rem;
+  }
+
+  .modal {
+    width: 90%;
+  }
+}

@@ -1,0 +1,11 @@
+.EnterAccountDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+
+  .checkboxContainer {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+}

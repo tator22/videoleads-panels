@@ -1,0 +1,70 @@
+.profilePhoto {
+  border-radius: 100rem;
+  background-color: rgb(var(--off-white));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.profilePhoto .photo {
+  height: 100%;
+  width: 100%;
+  max-height: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  min-width: 100%;
+  border-radius: 100rem;
+  object-fit: cover;
+  object-position: top;
+}
+
+.profilePhoto .name {
+  font-weight: 500;
+  color: rgb(var(--white));
+  text-transform: uppercase;
+}
+
+.profilePhotoClickable:hover {
+  transform: scale(110%);
+}
+
+.circle {
+  border-radius: 50rem;
+}
+
+.circle .photo {
+  border-radius: inherit;
+}
+
+.square {
+  border-radius: 1.5rem;
+}
+
+.square .photo {
+  border-radius: 1.4rem;
+}
+
+.closeIconContainer {
+  position: absolute;
+  bottom: -1.5rem;
+  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  min-width: 3rem;
+  max-width: 3rem;
+  height: 3rem;
+  min-height: 3rem;
+  max-height: 3rem;
+  border-radius: 100rem;
+  border: 0.2rem solid rgb(var(--primary), 0.15);
+  background-color: rgb(var(--white));
+  cursor: pointer;
+}
+
+.closeIcon {
+  width: 1.25rem;
+  height: 1.25rem;
+}

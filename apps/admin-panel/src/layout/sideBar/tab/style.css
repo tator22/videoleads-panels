@@ -1,0 +1,49 @@
+.Tab,
+.Tab_active {
+  display: flex;
+  align-items: center;
+  padding: 0.8rem 1rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgb(var(--black), 0.03);
+  }
+
+  .iconAndName {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+    .iconContainer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 3.5rem;
+      width: 3.5rem;
+
+      .icon {
+        width: 62.85%;
+        height: auto;
+      }
+    }
+
+    .name {
+      font-size: 1.6rem;
+      font-weight: 400;
+      text-transform: capitalize;
+      color: rgba(var(--black));
+    }
+  }
+}
+
+.Tab_active {
+  background-color: rgb(var(--black), 0.03);
+
+  .iconAndName {
+    .name {
+      font-weight: 600;
+    }
+  }
+}

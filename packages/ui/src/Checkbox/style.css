@@ -1,0 +1,33 @@
+.CheckBox {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+  width: fit-content;
+}
+
+.CheckBox[aria-disabled="true"] {
+  cursor: not-allowed;
+}
+
+.CheckBox > .input {
+  display: none;
+}
+
+.CheckBox > .icon {
+  width: 1.6rem;
+  height: 1.6rem;
+  min-width: 1.6rem;
+  min-height: 1.6rem;
+  max-width: 1.6rem;
+  max-height: 1.6rem;
+}
+
+.CheckBox[aria-disabled="true"] > .icon {
+  opacity: 0.35;
+  filter: grayscale(100%);
+  pointer-events: none;
+}

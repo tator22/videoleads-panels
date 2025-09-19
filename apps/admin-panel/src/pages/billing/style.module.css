@@ -1,0 +1,235 @@
+.billing {
+  /* border: 2px solid green; */
+
+  .headerButtonGroup {
+    display: flex;
+    gap: 1rem;
+
+    .headerActionButton {
+      border-radius: 1rem;
+    }
+  }
+
+  .profileSection {
+    padding: 2rem 3rem;
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+
+    .profilePhoto {
+      width: 5rem;
+      height: 5rem;
+      border-radius: 100rem;
+      object-fit: cover;
+    }
+
+    .profileName {
+      font-size: 1.5rem;
+      line-height: 125%;
+      color: rgb(var(--black));
+      font-weight: 600;
+    }
+  }
+
+  .planSection {
+    /* padding-left: 3rem; */
+
+    .planDetails {
+      padding: 1.6rem 2rem;
+      background-color: rgb(var(--black), 0.03);
+      border: 0.15rem solid rgb(var(--black), 0.04);
+      border-radius: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+
+      .planNameAndLogo {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+
+        .logo {
+          width: 3.2rem;
+          height: 3.2rem;
+        }
+
+        .planNameText {
+          font-size: 1.8rem;
+          line-height: 125%;
+        }
+      }
+
+      .planBilling {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+
+        .billingAmount {
+          font-size: 1.3rem;
+          line-height: 125%;
+          font-weight: 600;
+        }
+
+        .billingPeriod {
+          font-size: 1.2rem;
+          line-height: 125%;
+          font-weight: 400;
+        }
+      }
+    }
+
+    .buttonGroup {
+      margin-top: 2rem;
+      display: flex;
+      gap: 2rem;
+
+      @media (max-width: 550px) {
+        flex-direction: column;
+        gap: 1.5rem;
+      }
+
+      .ctaButton {
+        width: 100%;
+        color: rgb(var(--black), 0.7) !important;
+        border: 0.15rem solid rgb(var(--black), 0.1);
+      }
+    }
+  }
+
+  .billingSection {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+
+    .inputGroup {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.2rem;
+
+      @media (max-width: 650px) {
+        grid-template-columns: 1fr;
+      }
+    }
+  }
+
+  .paymentSection {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+
+    .paymentMethodGroup {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .buttonGroup {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+
+      .ctaButton {
+        border: 0.15rem solid rgb(var(--black), 0.03);
+        white-space: nowrap !important;
+
+        .brandLogoContainer {
+          width: 1.5rem;
+          height: 1.5rem;
+        }
+      }
+    }
+  }
+}
+
+.sectionHeading {
+  font-size: 1.5rem;
+  line-height: 125%;
+  color: rgb(var(--black));
+  font-weight: 600;
+}
+
+.sectionWidth {
+  max-width: 55rem;
+
+  @media (max-width: 850px) {
+    max-width: 100%;
+  }
+}
+
+.sectionPadding {
+  padding-left: 3rem;
+  padding-bottom: 3rem;
+
+  @media (max-width: 850px) {
+    padding: 3rem;
+  }
+}
+
+.paymentMethodRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  grid-area: 2rem;
+  padding: 1.3rem 2rem;
+  border-radius: 1rem;
+  border: 0.15rem solid rgb(var(--black), 0.1);
+
+  .leftSection {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+    .brandLogoContainer {
+      width: 5rem;
+      max-width: 5rem;
+      min-width: 5rem;
+      height: 3.4rem;
+      max-height: 3.4rem;
+      min-height: 3.4rem;
+      background-color: rgb(var(--black), 0.02);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 0.5rem;
+      border: 0.15rem solid rgb(var(--black), 0.03);
+
+      .brandLogo {
+        width: 80%;
+        height: 80%;
+        object-fit: contain;
+      }
+    }
+
+    .idName {
+      font-size: 1.5rem;
+      line-height: 125%;
+      color: rgb(var(--black), 0.7) !important;
+      font-weight: 400;
+      word-wrap: break-word; /* old syntax */
+      overflow-wrap: anywhere; /* modern syntax */
+      white-space: normal;
+    }
+  }
+
+  .rightSection {
+    .actionButton {
+      width: 2rem;
+      height: 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 0.25rem;
+      cursor: pointer;
+
+      &:hover {
+        background-color: rgb(var(--black), 0.02);
+      }
+
+      .deleteIcon {
+        width: 75%;
+        height: 75%;
+      }
+    }
+  }
+}

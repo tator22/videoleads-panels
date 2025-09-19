@@ -1,0 +1,195 @@
+{
+  "PAGES": {
+    "ERROR": {
+      "heading": "Oops! Page not found",
+      "description": "Sorry, we couldn't find this page.",
+      "error": "Error:",
+      "cta": "Back to Home"
+    },
+    "LISTING": {
+      "heading": "Listings",
+      "new_cta": "New Listing",
+      "cta": "Walkthrough Video",
+      "modal_cta": "Add",
+      "new_listing": "New Listing",
+      "name": "Listing Name",
+      "enter_listing_name": "Enter Listing Name",
+      "listing_details": "Listing Details",
+      "enter_listing_details": "Enter Listing Details",
+      "listing_type": "Listing Type",
+      "multiple_listing": "Multiple Listings",
+      "individual_listing": "Individual Listing"
+    },
+    "LISTING_DETAIL": {
+      "cta": "Add Media",
+      "preview": "Preview",
+      "media": "media",
+      "profile": "profile",
+      "qr": "QR",
+      "analytics": "analytics",
+      "settings": "settings",
+      "sms_message": "SMS Message",
+      "tab_to_edit_media": "Tap to edit media",
+      "drag": "Drag",
+      "to_move": "to move",
+      "sms_message_note": "The number people can send an SMS message to (704) 555-0127)",
+      "phone": "Phone",
+      "phone_note": "Buyers can message you and call you at (704) 555-0127)",
+      "email": "Email",
+      "email_note": "Buyers can email you at sara.cruz@example.com",
+      "website": "Website",
+      "website_note": "Visitors will be taken to https://www.url.com"
+    },
+    "QR": {
+      "templates": "Templates",
+      "body_shapes": "Body Shapes",
+      "frame_shapes": "Frame Shapes",
+      "ball_shapes": "Ball Shapes",
+      "color": "Color",
+      "logo": "Logo",
+      "select_logo_image": "Select logo image",
+      "upload": "Upload"
+    },
+    "ANALYTICS": {
+      "code_scans": "Code Scans"
+    },
+    "SETTINGS": {
+      "listing_name": "Listing Name",
+      "description": "Description",
+      "enter_description": "Enter Description",
+      "enter_listing_name": "Enter Listing Name",
+      "save": "Save"
+    },
+    "DEFAULTS": {
+      "preview": "Preview",
+      "defaults": "Defaults",
+      "phone": "Phone",
+      "phone_note": "Buyers can message you and call you at (704) 555-0127)",
+      "email": "Email",
+      "email_note": "Buyers can email you at sara.cruz@example.com",
+      "enter_phone_number": "Enter phone number",
+      "enter_email": "Enter email"
+    },
+    "TEAM_MEMBERS": {
+      "heading": "Team Members",
+      "cta": "Walkthrough Video",
+      "new_cta": "New Member"
+    },
+    "MEDIA": {
+      "heading": "Media",
+      "new_cta": "Add Media",
+      "search_media": "Search Media"
+    },
+    "SUPPORT": {
+      "heading": "Support"
+    },
+    "AUTHENTICATION": {
+      "log_in_label": "Already have an account?",
+      "cta_log_in": "Log in",
+      "sign_up_label": "Don't have an account?",
+      "cta_sign_up": "Sign Up",
+      "ENTER_USERNAME": {
+        "heading": "Enter your Username",
+        "sub_heading": "What would you like your account name to be?",
+        "username_input_placeholder": "Username",
+        "cta": "Continue"
+      },
+      "ENTER_ACCOUNT_DETAILS": {
+        "heading": "Create your account",
+        "email_input_placeholder": "Email",
+        "password_input_placeholder": "Password",
+        "confirm_password_input_placeholder": "Confirm Password",
+        "checkbox_label": "I agree to Listing Hype's <0>Terms of service</0> and <1>Privacy policy</1>",
+        "cta": "Create my account"
+      },
+      "ENTER_VERIFICATION_CODE": {
+        "heading": "You've got mail",
+        "sub_heading": "An email was sent to you at {{email}} Enter the code to confirm your account.",
+        "code_input_placeholder": "Enter code",
+        "cta": "Continue",
+        "cta_resend_code": "Resend Code"
+      },
+      "ENTER_NAME": {
+        "heading": "Enter your name",
+        "sub_heading": "What would you like your account name to be?",
+        "name_input_placeholder": "Full name",
+        "cta": "Continue"
+      },
+      "CHOOSE_ACCOUNT_TYPE": {
+        "heading": "Choose your account type",
+        "cta_individual": "Individual",
+        "cta_company": "Company"
+      },
+      "LOG_IN": {
+        "heading": "Log in to your account",
+        "email_input_placeholder": "Email",
+        "password_input_placeholder": "Password",
+        "cta_forgot_password": "Forgot Password?",
+        "cta": "Login"
+      }
+    },
+    "BILLING": {
+      "heading": "Billing",
+      "cancel": "Cancel",
+      "save": "Save",
+      "add_ons": "Add-ons",
+      "edit_plans": "Edit Plans",
+      "next_billing_date": "Next billing date",
+      "billed_annually": "Billed annually",
+      "billing_address": "Billing Address",
+      "address_line_1": "Address Line 1",
+      "address_line_2": "Address Line 2",
+      "city": "City",
+      "state": "State",
+      "zip_code": "Zip Code",
+      "country": "Country",
+      "payment_methods": "Payment Methods",
+      "payment": "Payment",
+      "choose_another_payment_method": "Choose another payment method",
+      "credit_card": "Credit Card",
+      "pay": "Pay"
+    }
+  },
+  "COMPONENTS": {
+    "PROFILE_SECTION": {
+      "icon_link": "Icon Link:",
+      "edit": "Edit"
+    }
+  },
+  "MODALS": {
+    "ADD_MEDIA": {
+      "title": "Add Media",
+      "upload": "upload",
+      "select_from_library": "Select from Library",
+      "upload_heading": "Drag an drop Media files to upload",
+      "upload_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "cta": "Select Media",
+      "primary_button_text": "Add",
+      "input_title": "Title",
+      "caption": "Caption",
+      "write_your_caption": "Write your caption",
+      "sms_message": "SMS Message",
+      "write_your_message": "Write your message",
+      "call_to_action_button_text": "Call to Action Button Text",
+      "call_to_action_button_url": "Call to Action Button URL",
+      "enter_the_text_for_cta": "Enter the text for CTA",
+      "enter_cta_url": "Enter CTA URL",
+      "call_to_action_button_color": "Call to Action Button Color",
+      "call_to_action": "Call to Action",
+      "preview": "Preview",
+      "vanity_metrics": "Vanity Metrics"
+    },
+    "EDIT_PROFILE_MODAL": {
+      "title": "Edit Profile",
+      "save": "Save",
+      "name": "Name",
+      "bio": "Bio",
+      "enter_name": "Enter Name",
+      "enter_bio": "Enter Bio"
+    },
+    "ADD_SOCIAL_LINK": {
+      "title": "Add Social Links",
+      "ctaAdd": "Add"
+    }
+  }
+}

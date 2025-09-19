@@ -1,0 +1,89 @@
+.mainHeaderContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.7rem 3rem;
+  border-bottom: var(--border-width) solid rgba(var(--black), 0.1);
+
+  .backButtonAndHeading {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+
+    .headerBackButton {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: 0.3s;
+      width: 2.4rem;
+      height: 2.4rem;
+
+      .headerBackIcon {
+        width: 1.5rem;
+        height: 1.5rem;
+      }
+    }
+
+    .headingAndSubHeading {
+      display: flex;
+      flex-direction: column;
+
+      .heading {
+        font-size: 2.2rem;
+        line-height: 125%;
+        font-weight: 600;
+        color: rgb(var(--black));
+      }
+
+      .subHeading {
+        color: rgba(var(--black), 0.5);
+        font-size: 1.5rem;
+        margin-top: 0.5rem;
+      }
+    }
+  }
+
+  .headerRightButton {
+    display: flex;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+    width: fit-content;
+
+    .headerButton {
+      border-radius: 1rem;
+      border: var(--border-width) solid
+        rgba(var(--header-button-background-color), 0.25);
+      background-color: rgb(
+        var(--header-button-background-color),
+        0.15
+      ) !important;
+
+      &:hover {
+        background-color: rgb(
+          var(--header-button-background-color),
+          0.25
+        ) !important;
+        border: var(--border-width) solid
+          rgba(var(--header-button-background-color), 0.5);
+      }
+
+      .headerButtonIconContainer {
+        width: 1.7rem;
+        height: 1.7rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .headerButtonIcon {
+          width: 83.33%;
+          height: 83.33%;
+        }
+      }
+    }
+  }
+}
+
+.headerWithButton {
+  padding: 2rem 3rem;
+}

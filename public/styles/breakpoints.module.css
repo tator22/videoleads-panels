@@ -1,0 +1,35 @@
+@media (max-width: 428px) {
+  html {
+    font-size: 40%;
+  }
+}
+
+@media (min-width: 429px) {
+  html {
+    font-size: 42.5%;
+  }
+}
+
+@media (min-width: 769px) {
+  html {
+    font-size: 45%;
+  }
+}
+
+@media (min-width: 1281px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (min-width: 1921px) {
+  html {
+    font-size: 125%;
+  }
+}
+
+@media (min-width: 5000px) {
+  html {
+    font-size: 225%;
+  }
+}

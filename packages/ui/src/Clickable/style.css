@@ -1,0 +1,17 @@
+.Clickable[aria-disabled="true"] {
+  cursor: not-allowed;
+  transform: scale(1);
+}
+
+.enabled {
+  cursor: pointer;
+  user-select: none;
+}
+
+.enabled:hover {
+  transform: scale(1.01);
+}
+
+.enabled:active {
+  transform: scale(0.99);
+}

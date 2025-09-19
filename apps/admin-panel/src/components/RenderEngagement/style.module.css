@@ -1,0 +1,30 @@
+.renderEngagement {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+/* ----------------------------------------------------- */
+.engagementRow {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+
+  .iconBox {
+    width: 1.8rem;
+    height: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .icon {
+      width: 83.33%;
+      height: 83.33%;
+    }
+  }
+
+  .count {
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+}

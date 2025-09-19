@@ -1,0 +1,26 @@
+{
+  "name": "@repo/assets",
+  "version": "0.0.0",
+  "type": "module",
+  "files": [],
+  "private": true,
+  "main": "./src/index.js",
+  "module": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "scripts": {
+    "check-types": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@repo/eslint-config": "*",
+    "@repo/typescript-config": "*",
+    "@types/node": "^22.15.3",
+    "eslint": "^9.26.0",
+    "typescript": "5.8.2"
+  },
+  "exports": {
+    ".": {
+      "import": "./src/index.ts",
+      "require": "./src/index.ts"
+    }
+  }
+}

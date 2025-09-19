@@ -1,0 +1,58 @@
+.ChooseAccountType {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.accountTypeCard {
+  padding: 1.2rem 3rem;
+  border: 0.15rem solid rgb(var(--black), 0.08);
+  border-radius: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  .iconAndName {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+    .iconContainer {
+      width: 3.4rem;
+      height: 3.4rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .icon {
+        width: 70%;
+        height: 70%;
+      }
+
+      .label {
+        font-size: 1.8rem;
+        line-height: 125%;
+        font-weight: 500;
+      }
+    }
+  }
+
+  .arrowContainer {
+    width: 2.2rem;
+    height: 2.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .arrow {
+      width: 60%;
+      height: 60%;
+    }
+  }
+}

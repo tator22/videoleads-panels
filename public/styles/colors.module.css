@@ -1,0 +1,45 @@
+:root {
+  /* Theme */
+  --primary: 0, 0, 0;
+  --primary-hover: 30, 30, 30;
+  --secondary: 242, 242, 242;
+  --secondary-hover: 225, 225, 225;
+  --header-button-background-color: 0, 122, 255;
+
+  /* Black & White */
+  --black: 0, 0, 0;
+  --white: 255, 255, 255;
+
+  /* Semantic */
+  --success: 0, 184, 46;
+  --error: 220, 54, 46;
+  --information: 47, 128, 237;
+  --warning: 251, 138, 8;
+  --under-process: 251, 189, 8;
+
+  /* Theme Filters */
+  --primary-filter: brightness(0) saturate(100%) invert(30%) sepia(74%)
+    saturate(599%) hue-rotate(308deg) brightness(119%) contrast(103%);
+  --secondary-filter: brightness(0) saturate(100%) invert(12%) sepia(11%)
+    saturate(26%) hue-rotate(324deg) brightness(94%) contrast(97%);
+
+  /* Black & White Filters */
+  --black-filter: brightness(0) saturate(100%) invert(0%) sepia(1%)
+    saturate(1470%) hue-rotate(5deg) brightness(105%) contrast(100%);
+  --white-filter: brightness(0) saturate(100%) invert(100%) sepia(100%)
+    saturate(1%) hue-rotate(238deg) brightness(102%) contrast(101%);
+
+  /* Semantic Filters */
+  --success-filter: brightness(0) saturate(100%) invert(44%) sepia(72%)
+    saturate(921%) hue-rotate(94deg) brightness(99%) contrast(102%);
+  --error-filter: brightness(0) saturate(100%) invert(25%) sepia(69%)
+    saturate(2744%) hue-rotate(346deg) brightness(92%) contrast(87%);
+  --information-filter: brightness(0) saturate(100%) invert(52%) sepia(76%)
+    saturate(4163%) hue-rotate(180deg) brightness(102%) contrast(109%);
+  --warning-filter: brightness(0) saturate(100%) invert(59%) sepia(14%)
+    saturate(6049%) hue-rotate(358deg) brightness(100%) contrast(97%);
+  --under-process-filter: brightness(0) saturate(100%) invert(75%) sepia(29%)
+    saturate(2139%) hue-rotate(357deg) brightness(103%) contrast(97%);
+  --gray-filter: brightness(0) saturate(100%) invert(79%) sepia(0%)
+    saturate(1775%) hue-rotate(235deg) brightness(82%) contrast(95%);
+}

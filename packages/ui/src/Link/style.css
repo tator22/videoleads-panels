@@ -1,0 +1,21 @@
+.Link[aria-disabled="false"] {
+  color: rgb(var(--primary));
+  cursor: pointer;
+  user-select: none;
+  text-decoration: none;
+}
+
+.Link:hover {
+  text-decoration: underline;
+  transform: scale(1.01);
+}
+
+.Link:active {
+  text-decoration: underline;
+  transform: scale(0.99);
+}
+
+.Link[aria-disabled="true"] {
+  transform: scale(1);
+  cursor: not-allowed;
+}
