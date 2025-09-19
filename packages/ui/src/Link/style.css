@@ -1,6 +1,9 @@
 .Link[aria-disabled="false"] {
   color: rgb(var(--primary));
   cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
   user-select: none;
   text-decoration: none;
 }
