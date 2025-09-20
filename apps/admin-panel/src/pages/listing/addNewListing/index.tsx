@@ -36,11 +36,36 @@ const AddNewListing = ({
           placeholder={t(`${translationKey}.enter_listing_details`)}
         />
 
-        <div className={styles.listingType}>
-          <Label text={t(`${translationKey}.listing_type`)} />
+        <div className={styles?.listingUrl}>
+          <Label text={t(`${translationKey}.listing_url`)} />
+          <div className={styles?.input}>
+            <Input
+              inputProps={{
+                required: true,
+                placeholder: t(`${translationKey}.enter_listing_url`),
+                value: "videoleads.com/",
+                contentEditable: false,
+                readOnly: true,
+                className: styles?.prefix,
+              }}
+              containerProps={{
+                className: styles?.prefixInput,
+              }}
+            />
+            <Input
+              inputProps={{
+                required: true,
+                placeholder: t(`${translationKey}.listing_url`),
+              }}
+            />
+          </div>
+        </div>
 
+        {/* <div className={styles.listingType}>
+          <Label text={t(`${translationKey}.listing_type`)} />
+          
           <div className={styles.renderCheckbox}>
-            <CheckBox
+          <CheckBox
               inputProps={{
                 checked: true,
                 required: true,
@@ -54,7 +79,7 @@ const AddNewListing = ({
               }}
             />
           </div>
-        </div>
+        </div> */}
       </div>
     </Modal>
   );
