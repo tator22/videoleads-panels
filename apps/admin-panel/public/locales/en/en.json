@@ -12,6 +12,8 @@
       "cta": "Walkthrough Video",
       "modal_cta": "Add",
       "new_listing": "New Listing",
+      "listing_url": "Listing URL",
+      "enter_listing_url": "Enter Listing URL",
       "name": "Listing Name",
       "enter_listing_name": "Enter Listing Name",
       "listing_details": "Listing Details",
